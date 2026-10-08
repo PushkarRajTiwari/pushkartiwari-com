@@ -123,3 +123,10 @@ p.todo, li.todo { padding: 10px 14px; display: block; }
 .small-cases .case h2 { font-size: 21px; margin-top: 28px; }
 .case .go.muted-go { color: var(--dim); }
 .case .chips { margin-top: 12px; }
+.case.span-all { grid-column: 1 / -1; min-height: 0; }
+.arch { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 16px 0 4px; font: 500 12.5px var(--mono); }
+.arch .node { padding: 8px 12px; border-radius: 10px; border: 1px solid rgba(45,212,191,.35); background: rgba(45,212,191,.06); color: var(--text); }
+.arch .link { color: var(--violet); }
+.arch .link::before { content: "⇄ "; }
+.arch .link::after { content: " ⇄"; }
+@media (max-width: 640px) { .arch { flex-direction: column; align-items: stretch; text-align: center; } .arch .link::before, .arch .link::after { content: ""; } .arch .link::before { content: "↕ "; } }

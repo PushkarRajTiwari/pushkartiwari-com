@@ -53,7 +53,7 @@
         '  <span class="t-c">clear</span>       clear the screen'),
       whoami: () => print(
         '<span class="t-y">Pushkar Raj Tiwari</span>\nSenior Software Engineer · Charlotte, NC\n' +
-        '9+ years of C# and .NET: APIs, SQL Server data work, SSIS and Kafka integrations.\n' +
+        '9+ years of full-stack C#, .NET and Angular: APIs, Angular front ends, SQL Server, SSIS and Kafka integrations.\n' +
         'Mostly regulated financial services, where security, testing and release discipline are part of the feature.\n' +
         'Now building hands-on with AI.'),
       projects: () => print(
@@ -62,6 +62,7 @@
         '<span class="t-dim">○ mcp-server           next, built in Kiro</span>'),
       skills: () => print(
         '<span class="t-dim">.NET & backend</span>  C#, .NET 8, ASP.NET Core, Clean Architecture, Dapper, EF\n' +
+        '<span class="t-dim">Front end</span>       Angular, Angular Material, TypeScript, RxJS, reactive forms\n' +
         '<span class="t-dim">Data</span>            SQL Server, T-SQL, stored procedures, query tuning, SSIS\n' +
         '<span class="t-dim">Integration</span>     Kafka (consumer), REST, JWT, role-based access\n' +
         '<span class="t-dim">Quality</span>         xUnit, NUnit, Moq, SonarQube, CI/CD\n' +
