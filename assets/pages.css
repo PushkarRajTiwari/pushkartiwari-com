@@ -130,3 +130,9 @@ p.todo, li.todo { padding: 10px 14px; display: block; }
 .arch .link::before { content: "⇄ "; }
 .arch .link::after { content: " ⇄"; }
 @media (max-width: 640px) { .arch { flex-direction: column; align-items: stretch; text-align: center; } .arch .link::before, .arch .link::after { content: ""; } .arch .link::before { content: "↕ "; } }
+.certs { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.cert { display: flex; align-items: center; gap: 18px; }
+.cert .badge { flex: none; font: 600 14px var(--mono); color: var(--teal); padding: 14px 12px; border-radius: 12px; border: 1px solid rgba(45,212,191,.35); background: rgba(45,212,191,.06); }
+.cert h3 { margin: 0 0 2px; font-size: 18px; }
+.cert p { margin: 0; color: var(--muted); font-size: 14px; }
+@media (max-width: 640px) { .certs { grid-template-columns: 1fr; } }
