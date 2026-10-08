@@ -118,3 +118,8 @@ p.todo, li.todo { padding: 10px 14px; display: block; }
 }
 .skills-grid .wide { grid-column: span 2; }
 @media (max-width: 860px) { .skills-grid .wide { grid-column: auto; } }
+.small-cases { margin-top: 14px; }
+.small-cases .case { min-height: 200px; }
+.small-cases .case h2 { font-size: 21px; margin-top: 28px; }
+.case .go.muted-go { color: var(--dim); }
+.case .chips { margin-top: 12px; }
